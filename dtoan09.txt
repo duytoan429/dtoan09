@@ -23,7 +23,7 @@ end)
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 repeat wait() until game:IsLoaded()
 local Window = Fluent:CreateWindow({
-    Title = "Dtoan =}",
+    Title = "Dtoan",
     SubTitle = "vip✅",
     TabWidth = 157,
     Size = UDim2.fromOffset(450, 300),
@@ -41,7 +41,7 @@ local Tabs = {
        Settings = Window:AddTab({ Title = "⚙️Cài đặt" }),
 }
     Tabs.Main0:AddButton({
-    Title = "Discord:)",
+    Title = "Discord",
     Description = "Group",
     Callback = function()
         setclipboard("https://discord.gg/9Xhw2AMKw")
@@ -57,7 +57,7 @@ local Tabs = {
 })
 
     Tabs.Main0:AddButton({
-    Title = "tiktok",
+    Title = "Tik Tok",
     Description = "duytoan",
     Callback = function()
         setclipboard("https://www.tiktok.com/@toan.duy1?_t=ZS-90rZMRTUXXG&_r=1")
