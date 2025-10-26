@@ -38,6 +38,7 @@ local Tabs = {
         Main3=Window:AddTab({ Title="99 đêm" }),
         Main4=Window:AddTab({ Title="blox fruit" }),
        Main5=Window:AddTab({ Title="plant vs branrot" }),
+       Main6=Window:AddTab({ Title="Mm2" }),
        Settings = Window:AddTab({ Title = "⚙️Cài đặt" }),
 }
     Tabs.Main0:AddButton({
@@ -450,6 +451,13 @@ Tabs.Main5:AddButton({
   Translator = true; -- true/false
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+  end
+})
+Tabs.Main6:AddButton({
+    Title="OHD",
+    Description="",
+    Callback=function()
+ODH_KEY = "" -- if you are a free user, enter your key here to auto validate.
   end
 })
 
