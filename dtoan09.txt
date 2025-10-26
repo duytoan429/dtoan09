@@ -64,6 +64,15 @@ local Tabs = {
         setclipboard("https://www.tiktok.com/@toan.duy1?_t=ZS-90rZMRTUXXG&_r=1")
     end
 })
+
+Tabs.Main0:AddButton({
+    Title = "Roblox",
+    Description = "",
+    Callback = function()
+        setclipboard("https://www.roblox.com/share?code=4658cc28e548c142a972c07fe179b880&type=Profile&source=ProfileShare&stamp=1761485491957")
+    end
+})
+
 Tabs.Main1:AddButton({
     Title="speed hub",
     Description="script này ngon á đủ chức năng cả",
