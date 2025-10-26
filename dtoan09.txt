@@ -24,7 +24,7 @@ local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/
 repeat wait() until game:IsLoaded()
 local Window = Fluent:CreateWindow({
     Title = "Dtoan =}",
-    SubTitle = "vip",
+    SubTitle = "vip✅",
     TabWidth = 157,
     Size = UDim2.fromOffset(450, 300),
     Acrylic = true,
@@ -65,7 +65,7 @@ local Tabs = {
 })
 Tabs.Main1:AddButton({
     Title="speed hub",
-    Description="script này ngon á đủ chức năng cả😃",
+    Description="script này ngon á đủ chức năng cả",
     Callback=function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
@@ -77,7 +77,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/
 
 Tabs.Main1:AddButton({
     Title="ThundeZ",
-    Description="cái này cũng ngon ",
+    Description="",
     Callback=function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
@@ -112,7 +112,7 @@ loadstring(game:HttpGet("https://pastefy.app/B0oeOAsg/raw"))()
 })
 
 Tabs.Main2:AddButton({
-    Title="VN 🇻🇳🇻🇳🇻🇳",
+    Title="VN 🇻🇳",
     Description="",
     Callback=function()
 	  local Settings = {
@@ -244,7 +244,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/NAVAAI098/Thunder-Hub
 })
 
 Tabs.Main3:AddButton({
-    Title="combo new😍",
+    Title="combo new",
     Description="no key ngon á full tiếng việt",
     Callback=function()
 	  local Settings = {
@@ -418,7 +418,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Rx1m/CpsHub/refs/head
 })
 
 Tabs.Main4:AddButton({
-    Title="Red😍",
+    Title="Red",
     Description="",
     Callback=function()
 	  local Settings = {
