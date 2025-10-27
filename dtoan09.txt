@@ -463,12 +463,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/
   end
 })
 Tabs.Main6:AddButton({
-    Title="OHD",
+    Title="",
     Description="",
     Callback=function()
-ODH_KEY = "" -- if you are a free user, enter your key here to auto validate.
-loadstring(game:HttpGet("https://api.overdrivehub.xyz/v1/auth"))()
-  end
+
 })
 
 local Players = game:GetService("Players")
