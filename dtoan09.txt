@@ -499,11 +499,11 @@ Tabs.Settings:AddToggle("LagFix_Super", {
 
         else
             StarterGui:SetCore("SendNotification", {
-                Title = "❌ Đã tắt Fix Lag",
+                Title = "Clent hack trong nhóm discord",
                 Text = "Muốn khôi phục map thì reload game nha.",
                 Duration = 5
             })
-            print("❌ Fix lag siêu mạnh đã tắt (cần reload map để khôi phục)")
+            print(" Clent hack trong nhóm discord)")
         end
     end
 })
