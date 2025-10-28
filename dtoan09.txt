@@ -428,15 +428,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Rx1m/CpsHub/refs/head
 })
 
 Tabs.Main4:AddButton({
-    Title="Red",
+    Title="Doraemon hub",
     Description="",
     Callback=function()
-	  local Settings = {
-  JoinTeam = "Pirates"; -- Pirates/Marines
-  Translator = true; -- true/false
-}
-loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))(Settings)
-  end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KiddoHiru/BloxFruits/main/MasterHub.lua"))()
 })
 
 Tabs.Main4:AddButton({
@@ -448,6 +443,22 @@ Tabs.Main4:AddButton({
   Translator = true; -- true/false
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+  end
+})
+
+Tabs.Main4:AddButton({
+    Title="W azure",
+    Description="",
+    Callback=function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/85e904ae1ff30824c1aa007fc7324f8f.lua"))()
+  end
+})
+
+Tabs.Main4:AddButton({
+    Title="HuyMithicIOS",
+    Description="",
+    Callback=function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HuyMythicIOS/HuyMythicSasuke/refs/heads/main/Sasuke_Uchiha.lua"))()
   end
 })
 
