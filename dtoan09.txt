@@ -500,7 +500,7 @@ Tabs.Settings:AddToggle("LagFix_Super", {
         else
             StarterGui:SetCore("SendNotification", {
                 Title = "Clent hack trong nhóm discord",
-                Text = "Muốn khôi phục map thì reload game nha.",
+                Text = "Dtoan.",
                 Duration = 5
             })
             print(" Clent hack trong nhóm discord)")
