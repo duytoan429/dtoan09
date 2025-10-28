@@ -432,6 +432,7 @@ Tabs.Main4:AddButton({
     Description="",
     Callback=function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/KiddoHiru/BloxFruits/main/MasterHub.lua"))()
+  end
 })
 
 Tabs.Main4:AddButton({
