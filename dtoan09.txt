@@ -663,7 +663,7 @@ Tabs.Settings:AddToggle("AutoFixLag", {
 
         else
             -- Khi tắt 🔴
-            print("🔴 Đã tắt Auto Fix Lag")
+            print("❄️")
         end
     end
 })
