@@ -462,12 +462,6 @@ Tabs.Main5:AddButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
   end
 })
-Tabs.Main6:AddButton({
-    Title="",
-    Description="",
-    Callback=function()
-
-})
 
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
