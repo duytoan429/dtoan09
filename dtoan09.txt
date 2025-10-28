@@ -675,7 +675,7 @@ Tabs.Settings:AddToggle("AutoFixLag", {
 
         else
             -- Khi tắt 🔴
-            print("❄️")
+            print("💀")
         end
     end
 })
