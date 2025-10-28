@@ -499,11 +499,11 @@ Tabs.Settings:AddToggle("LagFix_Super", {
 
         else
             StarterGui:SetCore("SendNotification", {
-                Title = "Clent hack trong nhóm discord",
+                Title = "⚡",
                 Text = "Dtoan.",
                 Duration = 5
             })
-            print(" Clent hack trong nhóm discord)")
+            print(" ⚡)")
         end
     end
 })
@@ -651,7 +651,7 @@ Tabs.Settings:AddToggle("AutoFixLag", {
 
         else
             -- Khi tắt 🔴
-            print("💀")
+            print("⚡")
         end
     end
 })
