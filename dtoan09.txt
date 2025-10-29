@@ -447,6 +447,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepza
   end
 })
 
+Tabs.Main4:AddButton({
+    Title="Kiwi hub",
+    Description="",
+    Callback=function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HieuDepTrai-Z/KiwiHubFree/refs/heads/main/KiwiHub.lua"))()
+  end
+})
+
 Tabs.Main5:AddButton({
     Title="speed hub",
     Description="",
