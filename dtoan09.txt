@@ -455,6 +455,18 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/HieuDepTrai-Z/KiwiHub
   end
 })
 
+Tabs.Main4:AddButton({
+    Title="Hiru hub",
+    Description="",
+    Callback=function()
+getgenv().Settings = {
+    JoinTeam = true,
+    Team = "Marines"-- Pirates or Marines
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KiddoHiru/BloxFruits/main/Source.lua"))()
+  end
+})
+
 Tabs.Main5:AddButton({
     Title="speed hub",
     Description="",
